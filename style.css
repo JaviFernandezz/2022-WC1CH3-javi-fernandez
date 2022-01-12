@@ -9,8 +9,89 @@
 header {
   display: flex;
   justify-content: space-between;
+  border: 1px solid black;
+  align-content: center;
 }
 
-logo {
-  max-width: 30px;
+.container-content {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.card-picture {
+  position: relative;
+  max-width: 100%;
+  border-radius: 20px;
+  filter: brightness(0.7);
+}
+
+.container-content__card {
+  position: relative;
+  display: flex;
+  max-width: 70%;
+  margin: 30px;
+
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: flex-end;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.container-text > p {
+  font-size: 30px;
+  margin: 5px;
+}
+
+h4 {
+  margin: 0px;
+}
+
+.container-content > h2 {
+  font-size: 50px;
+  color: black;
+}
+
+h1 {
+  color: rgb(255, 123, 41);
+  font-size: 20px;
+  margin: 20px;
+}
+
+.container-content__button {
+  color: white;
+  background-color: rgb(245, 135, 66);
+  width: 200px;
+  height: 70px;
+  border-radius: 0px 20px 20px 20px;
+  font-size: 20px;
+  border: 0;
+}
+
+h2 {
+  color: black;
+}
+
+.header__button {
+  color: white;
+  background-color: rgb(245, 135, 66);
+  width: 80px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 15px;
+  border: 0;
+}
+
+header > img {
+  height: 20%;
 }
