@@ -11,6 +11,12 @@ header {
   justify-content: space-between;
 }
 
-logo {
-  max-width: 30px;
+.container-content {
+  background-color: aqua;
+  justify-content: center;
+}
+
+.card-picture {
+  position: relative;
+  max-width: 70%;
 }
