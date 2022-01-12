@@ -5,29 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet Activities</title>
     <link rel="shortcut icon" type="image/jpg" href="images/logo2.png" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <img src="images/logo2.png" />
-      <button></button>
-    </header>
-    <h1>PET ACTIVITIES</h1>
-    <h2>Take a closer look</h2>
-    <button type="button">VIEW ALL</button>
-    <section>
-      <img src="images/01.jpg" />
-      <h4>ACTIVITIES</h4>
-      <p>Toys Playtime</p>
-    </section>
-    <section>
-      <img src="images/02.jpg" />
-      <h4>ACTIVITIES</h4>
-      <p>Active Rest</p>
-    </section>
-    <section>
-      <img src="images/03.jpg" />
-      <h4>ACTIVITIES</h4>
-      <p>Game Walks</p>
-    </section>
+    <div class="responsive">
+      <header>
+        <img src="images/logo2.png" class="logo" />
+        <nav>
+          <ul class="menu">
+            <li>Home</li>
+            <li>Live Demo</li>
+            <ul>
+              <li>Pets Boarding Services</li>
+              <li>Pets Toy and Food Shop</li>
+              <li>Pets Training School</li>
+            </ul>
+            <li>Live Demo Blocks</li>
+            <li><button type="header__button">BUY NOW</button></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container-content">
+        <h1>PET ACTIVITIES</h1>
+        <h2>Take a closer look</h2>
+        <button type="button" class="container-content__button">
+          VIEW ALL
+        </button>
+        <section class="container-content__card">
+          <img src="images/01.jpg" />
+          <h4>ACTIVITIES</h4>
+          <p>Toys Playtime</p>
+        </section>
+        <section class="container-content__card">
+          <img src="images/02.jpg" />
+          <h4>ACTIVITIES</h4>
+          <p>Active Rest</p>
+        </section>
+        <section class="container-content__card">
+          <img src="images/03.jpg" />
+          <h4>ACTIVITIES</h4>
+          <p>Game Walks</p>
+        </section>
+      </div>
+    </div>
   </body>
 </html>
